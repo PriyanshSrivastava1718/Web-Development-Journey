@@ -16,3 +16,4 @@ This repository documents my journey of learning modern web development.
 - Todo List
 - Distraction-Free YouTube
 - More coming soon...
+  
