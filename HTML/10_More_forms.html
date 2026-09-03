@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on forms</title>
+</head>
+
+<body>
+    <h1>fitness form</h1>
+    <form>
+        <label for="'Name">enter name: </label>
+        <input type="text" placeholder="your name here" id="Name" name="name">
+        <br><br>
+        <label for="phone number">enter ph no: </label>
+        <input type="tel" placeholder="your number here" id="phone number" name="number">
+        <br><br>
+        <label for="password">password: </label>
+        <input type="password" placeholder="enter password" id="password" name="password">
+        <!--START OF LECTURE 10 -->
+        <br><br>
+        <p>Choose Your Gender</p>
+        <label for="gender">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="gender">Female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="gender">others</label>
+        <input type="radio" id="others" name="gender">
+        <input type="submit" value="submit">
+        <!--radio buttons check 1 box at a time whereas checkbox is used for multiple checks-->
+        <h2>now we will see checkbox</h2>
+        <p>choose your hobby</p>
+        <label for="hobby">coding</label>
+        <input type="checkbox" id="coding" name="hobby">
+        <br>
+        <label for="hobby">outdoor sports</label>
+        <input type="checkbox" id="outdoor sports" name="hobby">
+        <br>
+        <label for="hobby">music</label>
+        <input type="checkbox" id="music" name="hobby">
+        <!--IF LABEL IS AFTER INPUT TAG THEN THE CHECKBOX WILL OCCUR BEFORE THE TEXT-->
+        <p><b>like this </b></p>
+        <input type="checkbox" id="music" name="hobby">
+        <label for="hobby">music</label>
+        <br><br>
+        <h2>its time for dropdown list</h2>
+        <label for="gender">choose your gender</label>
+        <select id="gender" name="gen">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="others">others</option>
+        </select>
+        <br><br>
+        <h2>for user input we use text area</h2>
+        <textarea value="description" rows="10" cols="100" id="description"></textarea>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
