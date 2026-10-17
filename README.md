@@ -1,4 +1,4 @@
-# 🌐 Web Development Journey
+# 🌐 Web Development Journey 
 
 This repository documents my journey of learning modern web development.
 
