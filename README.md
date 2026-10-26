@@ -1,4 +1,4 @@
-# 🌐 Web Development Journey
+# 🌐 Web Development Journey 
 
 This repository documents my journey of learning modern web development.
 
@@ -15,5 +15,5 @@ This repository documents my journey of learning modern web development.
 - Personal Portfolio
 - Todo List
 - Distraction-Free YouTube
-- More coming soon...
+- More coming soon... 
   
