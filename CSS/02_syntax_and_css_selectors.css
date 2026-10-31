@@ -1,0 +1,27 @@
+p{
+    color:blue;
+    font-size:20px;
+}
+.green{
+    color:green;
+}
+.big{
+    font-size:50px;
+}
+.red{
+    color:red;
+}
+#gray{
+    color:gray;
+}
+*{
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    background-color: aquamarine;
+}
+div p{
+    color:purple;
+}
