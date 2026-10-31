@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS syntax and selectors</title>
+    <link rel="stylesheet" href="02_css_selectors.css">
+</head>
+
+<body>
+    <h1 class="heading">What is a selector?</h1>
+    <p>the attributes we write inside style tag is selector eg p{} is a selector and things inside is an attribute </p>
+    <br><br>
+    <p> all paragraph is red cause p selector in general covers all paragraphs in a file</p>
+    <br>
+    <h2>Now what is class</h2>
+    <p> to overcome this all attributes changing problem we can write selectors rule for some specific line and those
+        names can be assigned to whoever needs it that is done using class </p>
+    <p class="green">class is defined using .name{} in css and like id tag its used to give name to an attribute
+        like this </p>
+    <p class="red big"><b>Note: </b>the class naming can have multiple rules all seperated by a space eg this is red and
+        big</p>
+    <br>
+    <h2>How is id different from class</h2>
+    <p id="gray">unlike class id can be assigned to only 1 attribute and its defined using #name{} in css like this is
+        color gray</p>
+    <br>
+    <h2>Universal selectors</h2>
+    <p>used using *{} in css eg bg color yellow, margin 0,padding 0 for all element </p>
+    <h2>Next is descendent selector</h2>
+    <div>
+        <p>that is to target only block elements eg this para needs color purple and it div so using div p{} we can turn
+            only div paragraphs to purple</p>
+    </div>
+</body>
+
+</html>
